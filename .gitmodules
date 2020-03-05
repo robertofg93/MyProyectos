@@ -1,3 +1,6 @@
 [submodule "Aprendiendo-Git"]
 	path = Aprendiendo-Git
 	url = https://github.com/robertofg93/Aprendiendo-Git
+[submodule "Aprendiendo-Dockerfile"]
+	path = Aprendiendo-Dockerfile
+	url = https://github.com/robertofg93/Aprendiendo-Dockerfile.git
