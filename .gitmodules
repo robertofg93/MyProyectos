@@ -4,3 +4,6 @@
 [submodule "Aprendiendo-Dockerfile"]
 	path = Aprendiendo-Dockerfile
 	url = https://github.com/robertofg93/Aprendiendo-Dockerfile.git
+[submodule "Dockerfile"]
+	path = Dockerfile
+	url = https://github.com/webdevops/Dockerfile/
