@@ -7,3 +7,6 @@
 [submodule "Dockerfile"]
 	path = Dockerfile
 	url = https://github.com/webdevops/Dockerfile/
+[submodule "Jenkins"]
+	path = Jenkins
+	url = https://github.com/robertofg93/Jenkins
