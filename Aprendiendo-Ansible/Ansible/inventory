@@ -1,0 +1,5 @@
+[servers]
+#172.24.7.41	ansible_connection=ssh	ansible_user=root	ansible_ssh_pass=admin.2019	ansible_ssh_common_args='-o StrictHostKeyChecking=no'
+#172.24.7.42	ansible_connection=ssh	ansible_user=root	ansible_ssh_pass=admin.2019	ansible_ssh_common_args='-o StrictHostKeyChecking=no'
+#172.24.7.43	ansible_connection=ssh	ansible_user=root	ansible_ssh_pass=admin.2019	ansible_ssh_common_args='-o StrictHostKeyChecking=no'
+172.24.10.6     ansible_connection=local 

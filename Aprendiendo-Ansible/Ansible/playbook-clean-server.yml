@@ -1,0 +1,12 @@
+---
+- hosts: servers
+  become: true
+  tasks:
+    - name: Detener todos los contenedores docker
+      shell: docker stop $(docker ps -a)
+
+    # - name: Eliminando todos los contenedores docker
+    #   shell: docker ps -aq -f status=exited | xargs -r docker rm
+
+    # - name: Borrar todas las imagenes docker
+    #   shell: docker rmi $(docker images -qa)
